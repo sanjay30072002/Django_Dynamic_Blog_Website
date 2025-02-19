@@ -1,1 +1,52 @@
-🚀 I recently built a dynamic **Blog Website** using Django, exploring various core concepts that make web development efficient and scalable. Throughout the project, I worked on structuring the application properly using Django apps, setting up views, managing URLs dynamically, and rendering templates with static files. Integrating MySQL as the database, I implemented CRUD operations, ensuring smooth data handling. One of the interesting aspects was generating slugs for posts and setting up error handling to enhance the user experience. I also created category-based post filtering using a **Many-to-One Relationship**, making content organization seamless. Features like pagination improved content navigation, while a contact form with validation provided interactive user engagement. Additionally, I customized the Django admin panel to manage posts and categories efficiently. This project helped me gain hands-on experience in **backend development, database management, and dynamic content rendering**. Looking forward to learning more and integrating advanced features in future projects! 🚀 #Django #Python #WebDevelopment #BlogWebsite #FullStack #SoftwareEngineering
+Django Blog Website
+A dynamic blog website built using Django, featuring post management, category filtering, pagination, and an interactive admin panel.
+
+📌 Features
+Django Apps & Project Structure for scalable development
+Dynamic URLs & Views for seamless navigation
+Template Rendering & Static Files for UI customization
+MySQL Database Integration with CRUD operations
+Slug-Based Routing for SEO-friendly URLs
+Error Handling & Custom 404 Page
+Category & Post Relationships (Many-to-One)
+Pagination for structured content display
+Contact Form with Validation
+Django Admin Customization for efficient management
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+sh
+Copy
+Edit
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+2️⃣ Create & Activate a Virtual Environment
+sh
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # For MacOS/Linux
+venv\Scripts\activate      # For Windows
+3️⃣ Install Dependencies
+sh
+Copy
+Edit
+pip install -r requirements.txt
+4️⃣ Configure the Database (MySQL)
+Update settings.py with your MySQL credentials. Then, run:
+
+sh
+Copy
+Edit
+python manage.py makemigrations
+python manage.py migrate
+5️⃣ Create a Superuser for Admin Panel
+sh
+Copy
+Edit
+python manage.py createsuperuser
+6️⃣ Run the Development Server
+sh
+Copy
+Edit
+python manage.py runserver
+Now, open http://127.0.0.1:8000/ in your browser! 🚀
